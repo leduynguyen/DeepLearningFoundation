@@ -1,0 +1,183 @@
+name: dlnd
+channels: !!python/tuple
+- conda-forge
+- defaults
+dependencies:
+- conda-forge::blas=1.1=openblas
+- conda-forge::ca-certificates=2016.9.26=0
+- conda-forge::cairo=1.14.6=0
+- conda-forge::certifi=2017.1.23=py36_0
+- conda-forge::decorator=4.0.11=py36_0
+- conda-forge::entrypoints=0.2.2=py36_1
+- conda-forge::fontconfig=2.11.1=6
+- conda-forge::freetype=2.6.3=1
+- conda-forge::gettext=0.19.7=1
+- conda-forge::glib=2.51.0=2
+- conda-forge::harfbuzz=1.3.4=0
+- conda-forge::icu=56.1=4
+- conda-forge::ipykernel=4.5.2=py36_0
+- conda-forge::ipython=5.1.0=py36_2
+- conda-forge::ipython_genutils=0.1.0=py36_0
+- conda-forge::ipywidgets=5.2.2=py36_2
+- conda-forge::jinja2=2.8=py36_1
+- conda-forge::jpeg=9b=0
+- conda-forge::jsonschema=2.5.1=py36_0
+- conda-forge::jupyter=1.0.0=py36_0
+- conda-forge::jupyter_client=4.4.0=py36_0
+- conda-forge::jupyter_console=5.0.0=py36_0
+- conda-forge::jupyter_core=4.2.1=py36_0
+- conda-forge::libffi=3.2.1=3
+- conda-forge::libiconv=1.14=4
+- conda-forge::libpng=1.6.28=0
+- conda-forge::libsodium=1.0.10=0
+- conda-forge::libtiff=4.0.6=7
+- conda-forge::libxml2=2.9.4=3
+- conda-forge::markupsafe=0.23=py36_1
+- conda-forge::matplotlib=2.0.0=np111py36_1
+- conda-forge::ncurses=5.9=10
+- conda-forge::numpy=1.11.3=py36_blas_openblas_200
+- conda-forge::openblas=0.2.19=0
+- conda-forge::openssl=1.0.2h=3
+- conda-forge::pandas=0.19.2=np111py36_1
+- conda-forge::pango=1.40.3=0
+- conda-forge::pcre=8.39=0
+- conda-forge::pexpect=4.2.1=py36_0
+- conda-forge::pip=9.0.1=py36_0
+- conda-forge::pixman=0.34.0=0
+- conda-forge::pygments=2.2.0=py36_0
+- conda-forge::pyparsing=2.1.10=py36_0
+- conda-forge::pyqt=4.11.4=py36_2
+- conda-forge::python=3.6.0=1
+- conda-forge::python-dateutil=2.6.0=py36_0
+- conda-forge::pytz=2016.10=py36_0
+- conda-forge::pyzmq=16.0.2=py36_0
+- conda-forge::qt=4.8.7=3
+- conda-forge::qtconsole=4.2.1=py36_1
+- conda-forge::readline=6.2=0
+- conda-forge::setuptools=33.1.0=py36_0
+- conda-forge::sip=4.18=py36_1
+- conda-forge::six=1.10.0=py36_1
+- conda-forge::sqlite=3.13.0=1
+- conda-forge::tk=8.5.19=1
+- conda-forge::tornado=4.4.2=py36_0
+- conda-forge::wheel=0.29.0=py36_0
+- conda-forge::xz=5.2.2=0
+- conda-forge::zeromq=4.1.5=0
+- conda-forge::zlib=1.2.11=0
+- cycler=0.10.0=py36_0
+- libgfortran=3.0.0=1
+- mistune=0.7.3=py36_0
+- nbconvert=4.2.0=py36_0
+- nbformat=4.2.0=py36_0
+- notebook=4.3.1=py36_0
+- path.py=10.0=py36_0
+- pickleshare=0.7.4=py36_0
+- prompt_toolkit=1.0.9=py36_0
+- ptyprocess=0.5.1=py36_0
+- simplegeneric=0.8.1=py36_1
+- terminado=0.6=py36_0
+- traitlets=4.3.1=py36_0
+- wcwidth=0.1.7=py36_0
+- widgetsnbextension=1.2.6=py36_0
+- pip:
+  - actionlib==1.11.7
+  - bondpy==1.7.18
+  - camera-calibration==1.12.19
+  - camera-calibration-parsers==1.11.11
+  - catkin==0.7.4
+  - cv-bridge==1.12.3
+  - diagnostic-analysis==1.8.10
+  - diagnostic-common-diagnostics==1.8.10
+  - diagnostic-updater==1.8.10
+  - dynamic-reconfigure==1.5.46
+  - gazebo-plugins==2.5.8
+  - gazebo-ros==2.5.8
+  - gencpp==0.5.4
+  - geneus==2.2.5
+  - genlisp==0.4.16
+  - genmsg==0.5.8
+  - gennodejs==1.0.3
+  - genpy==0.6.3
+  - image-geometry==1.12.3
+  - interactive-markers==1.11.3
+  - ipython-genutils==0.1.0
+  - jupyter-client==4.4.0
+  - jupyter-console==5.0.0
+  - jupyter-core==4.2.1
+  - laser-geometry==1.6.4
+  - message-filters==1.12.6
+  - pluginlib==1.10.4
+  - prompt-toolkit==1.0.9
+  - python-qt-binding==0.3.1
+  - qt-dotgraph==0.3.3
+  - qt-gui==0.3.3
+  - qt-gui-cpp==0.3.3
+  - qt-gui-py-common==0.3.3
+  - resource-retriever==1.12.2
+  - rosbag==1.12.6
+  - rosboost-cfg==1.13.4
+  - rosclean==1.13.4
+  - roscreate==1.13.4
+  - rosgraph==1.12.6
+  - roslaunch==1.12.6
+  - roslib==1.13.4
+  - roslint==0.11.0
+  - roslz4==1.12.6
+  - rosmake==1.13.4
+  - rosmaster==1.12.6
+  - rosmsg==1.12.6
+  - rosnode==1.12.6
+  - rosparam==1.12.6
+  - rospy==1.12.6
+  - rosservice==1.12.6
+  - rostest==1.12.6
+  - rostopic==1.12.6
+  - rosunit==1.13.4
+  - roswtf==1.12.6
+  - rqt-action==0.4.3
+  - rqt-bag==0.4.3
+  - rqt-bag-plugins==0.4.3
+  - rqt-console==0.4.3
+  - rqt-dep==0.4.3
+  - rqt-graph==0.4.3
+  - rqt-gui==0.3.1
+  - rqt-gui-py==0.3.1
+  - rqt-image-view==0.4.3
+  - rqt-launch==0.4.3
+  - rqt-logger-level==0.4.3
+  - rqt-moveit==0.5.5
+  - rqt-msg==0.4.3
+  - rqt-nav-view==0.5.5
+  - rqt-plot==0.4.3
+  - rqt-pose-view==0.5.5
+  - rqt-publisher==0.4.3
+  - rqt-py-common==0.4.3
+  - rqt-py-console==0.4.3
+  - rqt-reconfigure==0.4.3
+  - rqt-robot-dashboard==0.5.5
+  - rqt-robot-monitor==0.5.5
+  - rqt-robot-steering==0.5.5
+  - rqt-runtime-monitor==0.5.5
+  - rqt-rviz==0.5.5
+  - rqt-service-caller==0.4.3
+  - rqt-shell==0.4.3
+  - rqt-srv==0.4.3
+  - rqt-tf-tree==0.5.5
+  - rqt-top==0.4.3
+  - rqt-topic==0.4.3
+  - rqt-web==0.4.3
+  - rviz==1.12.4
+  - sensor-msgs==1.12.5
+  - smach==2.0.0
+  - smach-ros==2.0.0
+  - smclib==1.7.18
+  - tf==1.11.8
+  - tf-conversions==1.11.8
+  - tf2-geometry-msgs==0.5.13
+  - tf2-kdl==0.5.13
+  - tf2-py==0.5.13
+  - tf2-ros==0.5.13
+  - topic-tools==1.12.6
+  - xacro==1.11.1
+prefix: /home/duy/anaconda3/envs/dlnd
+
